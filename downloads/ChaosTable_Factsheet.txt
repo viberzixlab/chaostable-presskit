@@ -1,0 +1,82 @@
+﻿CHAOS TABLE - FACTSHEET / ข้อมูลเกม
+Updated 2026-10-18
+
+Developer: Viberzix's Lab
+Publisher: Viberzix's Lab
+Release date: November 2026
+Platform: Windows PC (Steam) - https://store.steampowered.com/app/5294070/
+Genre: Social deduction, multiplayer
+Players: 6-10
+Match length: About 15-30 minutes
+Languages (interface): English, Thai, Japanese, Simplified Chinese
+Price: 4.99 USD
+YouTube: https://www.youtube.com/@ChaosTable
+X: https://x.com/ChaosTableGame
+Facebook: https://www.facebook.com/ChaosTableGame
+Trailer: https://youtu.be/ggFYxW_-1vo
+Contact: viberzixlab@outlook.co.th
+
+ONE LINE
+A social deduction party game where roles can change at any time. Talk, spot the liars, eliminate other players, and scheme your way to survival.
+
+SHORT DESCRIPTION
+Chaos Table is a talking-and-deduction party game for 6-10 players. Roles are never guaranteed to stay the same and can change at any time, so you can never be sure who is on your side. Talk, build trust, catch the lies, dig up other players’ secrets and guard your own, all without being eliminated first. Or choose to betray, and do whatever it takes to survive until you are the winner.
+
+LONG DESCRIPTION
+No one at this table can be trusted.
+
+In Chaos Table, 6-10 players receive secret roles, and nobody knows for sure who is on their side. The game is played in turns, and each turn gives you tools to investigate other players, eliminate them, or ban them to restrict what they can do. Roles can be swapped as well.
+
+Dying is not always the end. A player can be revived at any time in a new role, on either side.
+
+You will also run into special events and mysterious guests who keep shaking up the situation.
+
+FEATURES
+- Roles can change at any time, and may not stay the same from game to game.
+- No player knows for certain who the rest of their own side are.
+- Tactics let you build a plan of your own to win.
+- Some roles keep special abilities after death, to help other players or to eliminate others faster.
+
+ABOUT THE DEVELOPER
+Chaos Table is an indie game made by one developer under the name Viberzix’s Lab.
+AI disclosure: AI tools were used only for programming and for the English, Simplified Chinese and Japanese translations. No generative AI was used for art, animation or audio.
+
+
+------------------------------------------------------------
+ภาษาไทย
+
+ผู้พัฒนา: Viberzix's Lab
+ผู้จัดจำหน่าย: Viberzix's Lab
+วันวางจำหน่าย: พฤศจิกายน 2026
+แพลตฟอร์ม: Windows PC (Steam)
+แนวเกม: Social Deduction, Multiplayer
+จำนวนผู้เล่น: 6-10 คน
+ความยาวหนึ่งแมตช์: ประมาณ 15-30 นาที
+ภาษาอินเทอร์เฟซ: อังกฤษ ไทย ญี่ปุ่น จีนตัวย่อ
+ราคา: 99 บาท
+ติดต่อ: viberzixlab@outlook.co.th
+
+หนึ่งบรรทัด
+เกมแนวปาร์ตี้สวมบทบาทที่สามารถเปลี่ยนได้เสมอ แนวพูดคุย จับผิด กำจัดผู้เล่นออก และเหลี่ยมให้สุดเพื่อเอาตัวรอด
+
+คำอธิบายสั้น
+Chaos Table คือเกมปาร์ตี้ พูดคุย จับผิด สำหรับผู้เล่น 6-10 คน โดยบทบาทจะไม่การันตีว่าจะเหมือนเดิมตลอดไป มีการเปลี่ยนแปลงได้เสมอ ไม่มีทางรู้ว่าใครเป็นพวกของตัวเอง คุณต้องพูดคุย สร้างความไว้วางใจ จับผิดคำโกหก สืบความลับของพวกเขา และปกป้องความลับที่คุณมี โดยไม่ให้ถูกกำจัดออกไปซะก่อน หรือเลือกที่จะหักหลัง เพื่อความเอาตัวรอดจนกว่าคุณจะเป็นผู้ชนะซะเอง
+
+คำอธิบายแบบยาว
+บนโต๊ะแห่งนี้ไม่มีใครไว้ใจได้
+
+ใน Chaos Table ผู้เล่น 6-10 คน จะได้รับบทบาทลับ โดยที่ไม่มีใครรู้เลยว่าใครเป็นพวกของตัวเองก็ตาม รูปแบบการเล่นจะเป็นแบบเทิร์น และแต่ละเทิร์นจะมีตัวช่วยคอยช่วยสืบข้อมูลของผู้เล่น กำจัดผู้เล่นออก หรือแบนเพื่อจำกัดสิทธิ์ได้ รวมถึงการสับเปลี่ยนบทบาทก็ตาม
+
+การตายภายในเกมนั้นถือว่ายังไม่ใช่จุดจบเสมอไป เพราะว่าผู้เล่นสามารถถูกชุบกลับมาได้เสมอในบทบาทใหม่ไม่ว่าจะเป็นฝั่งไหนก็ตาม
+
+นอกจากนี้ก็สามารถพบกับเหตุการณ์พิเศษที่จะเกิดขึ้น หรือแขกปริศนาเพื่อคอยสร้างสถานการณ์ให้เปลี่ยนแปลงได้เสมอ
+
+จุดเด่น
+- เกมนี้บทบาทมีการเปลี่ยนแปลงได้ตลอดเวลา บางครั้งอาจจะไม่ใช่บทบาทเดิมเสมอไปของทุกการเล่น
+- ไม่มีผู้เล่นฝ่ายไหนรู้ตัวจริงหรือบทบาทของพวกตัวเองทั้งหมด
+- มีแท็คติคในการสร้างแบบแผนในการเล่น เพื่อสร้างชัยชนะของตัวเอง
+- บทบาทบางบทนั้นมีความสามารถพิเศษหลังตายไปแล้ว เพื่อช่วยเหลือผู้เล่นอื่น หรือกำจัดผู้เล่นออกไวขึ้น
+
+เกี่ยวกับผู้พัฒนา
+Chaos Table เป็นเกมอินดี้ที่พัฒนาโดยคนเดียว ภายใต้ชื่อ Viberzix’s Lab
+การใช้ AI: ใช้ AI เฉพาะงานเขียนโค้ดและการแปลภาษาอังกฤษ จีนตัวย่อ และญี่ปุ่น ไม่ใช้ Generative AI กับงานภาพ แอนิเมชัน หรือเสียง
