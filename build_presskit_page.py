@@ -217,9 +217,7 @@ a(f'<div class="byline">{t("By Viberzix&#39;s Lab · updated", "โดย Viberz
 a('<p class="lead">' + t("Everything you need to write about Chaos Table or put it in a video is on this page. If you need something in another format, or a review key, email us.",
                          "ข้อมูลทั้งหมดสำหรับเขียนข่าวหรือทำคลิปเกี่ยวกับ Chaos Table อยู่ในหน้านี้ หากต้องการไฟล์รูปแบบอื่นหรือคีย์รีวิว อีเมลมาได้เลยครับ") + '</p>')
 a('<div class="getall"><p>' + dl("downloads/ChaosTable_PressKit_All.zip", f"Download the full press kit (ZIP, {SIZES['all']})", f"ดาวน์โหลด Press Kit ทั้งชุด (ZIP, {SIZES['all']})") + '</p>'
-  '<p class="files">' + t("Factsheet text, 12 screenshots, main art, 26 cards, logo and icons. Or get the ",
-                          "มีข้อความ Factsheet, ภาพหน้าจอ 12 ภาพ, ภาพหลัก, การ์ด 26 ใบ, โลโก้และไอคอน หรือดาวน์โหลด") + ' ' +
-  dl("downloads/ChaosTable_Factsheet.txt", "factsheet only (TXT)", "เฉพาะ Factsheet (TXT)") + '.</p></div>')
+  '<p class="files">' + t("12 screenshots, main art, 26 cards, logo and icons.", "ภาพหน้าจอ 12 ภาพ, ภาพหลัก, การ์ด 26 ใบ, โลโก้และไอคอน") + '</p></div>')
 
 # factsheet
 facts = [
