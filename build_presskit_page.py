@@ -395,7 +395,7 @@ js = r"""
 const CONFIG = {
   trailerYouTubeId: "F6m1jdrJI70",
   embedTrailer: EMBED,
-  release: { "en": "12 November 2026", "th": "12 พฤศจิกายน 2026", "ja": "2026年11月12日", "zh-Hans": "2026年11月12日" },
+  release: { "en": "Out now (12 November 2026)", "th": "วางจำหน่ายแล้ว (12 พฤศจิกายน 2026)", "ja": "発売中（2026年11月12日発売）", "zh-Hans": "已发售（2026年11月12日）" },
   price:   { "en": "4.99 USD", "th": "99 บาท", "ja": "655円（Steam 日本ストア価格）", "zh-Hans": "22 元人民币（Steam 国区价格）" }
 };
 const LANGS = ["en", "th", "ja", "zh-Hans"];
