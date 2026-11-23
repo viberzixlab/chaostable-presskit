@@ -9,7 +9,7 @@ import sys, html as H
 OUT = sys.argv[1]
 PREVIEW = len(sys.argv) > 2 and sys.argv[2] == "preview"
 
-SIZES = {"all": "25 MB", "shots": "11 MB", "store": "4 MB", "cards": "12 MB", "logo": "1 MB"}
+SIZES = {"all": "35 MB", "shots": "18 MB", "store": "4 MB", "cards": "14 MB", "logo": "1 MB"}
 LANGS = [("en", "English"), ("th", "ไทย"), ("ja", "日本語"), ("zh-Hans", "简体中文")]
 
 def t(en, th, ja, zh):
@@ -32,28 +32,28 @@ def dl_all(href, size):
 PNG_ATTR = ' target="_blank" rel="noopener"' if PREVIEW else " download"
 
 shots = [
-    ("shot-01-hero", "The table at your turn", "โต๊ะเกมตอนถึงเทิร์นของเรา", "自分のターンのテーブル", "轮到你时的牌桌"),
-    ("shot-02-discussion", "Discussion phase", "ช่วงพูดคุย", "議論フェーズ", "讨论阶段"),
+    ("shot-01-table", "Discussion at the table", "คุยกันรอบโต๊ะ", "テーブルで議論", "围坐牌桌讨论"),
+    ("shot-02-role", "Your secret role", "บทบาทลับของคุณ", "あなたの秘密の役職", "你的秘密身份"),
     ("shot-03-voting", "Choose who to vote out", "เลือกคนที่จะโหวตออก", "追放する人を投票で選ぶ", "投票选出要淘汰的人"),
-    ("shot-04-card", "Action card: Banned", "การ์ดแอคชั่น: Banned", "アクションカード：Banned", "行动卡：Banned"),
-    ("shot-05-seller", "Card seller and Tactic cards", "พ่อค้าการ์ดและการ์ดแท็กติก", "カード商人とタクティクスカード", "卡牌商人与战术卡"),
+    ("shot-04-death", "Voted out: the role is revealed", "โดนโหวตออก: เปิดเผยบทบาท", "追放：役職が明かされる", "被投票淘汰：身份揭晓"),
+    ("shot-05-reaper", "Ghosts vs the Reaper", "ผีสู้ยมทูต", "幽霊 vs 死神", "幽灵大战死神"),
     ("shot-06-war", "War Event: hold the tower", "War Event: ป้องกันหอคอย", "戦争イベント：塔を守り抜け", "战争事件：守住高塔"),
-    ("shot-07-guest", "Special guest: Muscle Cat", "แขกพิเศษ: แมวกล้าม", "特別ゲスト：マッスルキャット", "特别访客：肌肉猫"),
-    ("shot-08-reveal", "Final reveal: Skull side wins", "ผลจบเกม: ฝ่ายกะโหลกชนะ", "最終結果：スカル陣営の勝利", "最终揭晓：骷髅阵营胜利"),
-    ("shot-09-ghost", "Ghost world: predict the next death", "โลกผี: ทายว่าใครจะตายต่อ", "幽霊の世界：次に死ぬ人を予想", "幽灵世界：预测下一个死者"),
-    ("shot-10-rps", "Rock-paper-scissors tie-break", "เป่ายิ้งฉุบตัดสินโหวตเสมอ", "同票時のじゃんけん決着", "平票时的石头剪刀布决胜"),
-    ("shot-11-mainmenu", "Main menu", "เมนูหลัก", "メインメニュー", "主菜单"),
-    ("shot-12-lobby", "Lobby", "ล็อบบี้", "ロビー", "大厅"),
+    ("shot-07-private", "Private Room: secret trades", "ห้องลับ: แลกของกันลับๆ", "密室：内緒の取引", "密室：秘密交易"),
+    ("shot-08-seller", "Card seller and Tactic cards", "พ่อค้าการ์ดและการ์ดแท็กติก", "カード商人とタクティクスカード", "卡牌商人与战术卡"),
+    ("shot-09-shield", "Block it with Counter or Shield", "กันด้วย Counter หรือ Shield", "Counter か Shield で防ぐ", "用 Counter 或 Shield 挡下"),
+    ("shot-10-rps", "Rock-paper-scissors tie-break", "เป่ายิงฉุบตัดสินโหวตเสมอ", "同票時のじゃんけん決着", "平票时的石头剪刀布决胜"),
+    ("shot-11-customize", "Customize your character", "แต่งตัวละคร", "キャラクターの着せ替え", "自定义角色"),
+    ("shot-12-host", "Host settings: pick the roles", "ตั้งค่าโฮสต์: เลือกบทบาทที่ใช้", "ホスト設定：使う役職を選ぶ", "房主设置：选择使用的身份"),
 ]
 card_groups = [
-    ("Character", ("Role cards", "การ์ดบทบาท", "役職カード", "身份卡"), ["king", "knight", "nurse", "people", "skull", "skull_king", "skull_predator"]),
+    ("Character", ("Role cards", "การ์ดบทบาท", "役職カード", "身份卡"), ["king", "knight", "nurse", "wizard", "people", "skull", "skull_king", "skull_predator", "skull_witch"]),
     ("Action", ("Action cards", "การ์ดแอคชั่น", "アクションカード", "行动卡"), ["banned", "bomb", "choose", "free_time", "get_out", "revive", "salt", "switch", "whoru"]),
     ("Tactic", ("Tactic cards", "การ์ดแท็กติก", "タクティクスカード", "战术卡"), ["counter", "discard", "myturn", "plusone", "shield", "steal", "swap"]),
-    ("Rps", ("Tie-break cards", "การ์ดเป่ายิ้งฉุบ", "じゃんけんカード", "石头剪刀布卡"), ["rock", "paper", "scissors"]),
+    ("Rps", ("Tie-break cards", "การ์ดเป่ายิงฉุบ", "じゃんけんカード", "石头剪刀布卡"), ["rock", "paper", "scissors"]),
 ]
 # Card faces are English-only in every language (owner decision 2026-10-16), so names stay English here.
 CARD_NAMES = {"king": "King", "knight": "Knight", "nurse": "Nurse", "people": "People", "skull": "Skull",
-              "skull_king": "Skull King", "skull_predator": "Skull Predator", "banned": "Banned", "bomb": "Bomb",
+              "skull_king": "Skull King", "skull_predator": "Skull Predator", "wizard": "Wizard", "skull_witch": "Skull Witch", "banned": "Banned", "bomb": "Bomb",
               "choose": "Choose", "free_time": "Free Time", "get_out": "Get Out", "revive": "Revive", "salt": "Salt",
               "switch": "Switch", "whoru": "Who R U?", "counter": "Counter", "discard": "Discard", "myturn": "My Turn",
               "plusone": "Plus One", "shield": "Shield", "steal": "Steal", "swap": "Swap", "rock": "Rock",
@@ -237,8 +237,8 @@ a('<p class="lead">' + t("Everything you need to write about Chaos Table or put 
 a('<div class="getall"><p>' + dl("downloads/ChaosTable_PressKit_All.zip",
                                  f"Download the full press kit (ZIP, {SIZES['all']})", f"ดาวน์โหลด Press Kit ทั้งชุด (ZIP, {SIZES['all']})",
                                  f"プレスキット一式をダウンロード (ZIP, {SIZES['all']})", f"下载完整媒体资料包 (ZIP, {SIZES['all']})") + '</p>'
-  '<p class="files">' + t("12 screenshots, main art, 26 cards, logo and icons.", "ภาพหน้าจอ 12 ภาพ, ภาพหลัก, การ์ด 26 ใบ, โลโก้และไอคอน",
-                          "スクリーンショット12枚、メインアート、カード26枚、ロゴ・アイコン", "12 张截图、主视觉、26 张卡牌、标志与图标") + '</p></div>')
+  '<p class="files">' + t("12 screenshots, main art, 28 cards, logo and icons.", "ภาพหน้าจอ 12 ภาพ, ภาพหลัก, การ์ด 28 ใบ, โลโก้และไอคอน",
+                          "スクリーンショット12枚、メインアート、カード28枚、ロゴ・アイコン", "12 张截图、主视觉、28 张卡牌、标志与图标") + '</p></div>')
 
 # factsheet
 facts = [
@@ -354,8 +354,8 @@ a('<p class="zip">' + t("Every card in the game as a transparent PNG at 1600×22
                         "การ์ดทุกใบในเกม PNG พื้นโปร่งใส 1600×2240 พร้อมใช้ทำปกคลิปหรือตัดต่อ",
                         "ゲーム内の全カードを 1600×2240 の透過 PNG で収録。サムネイルや動画編集にそのまま使えます。",
                         "游戏中全部卡牌，1600×2240 透明背景 PNG，可直接用于缩略图或视频剪辑。")
-  + ' · ' + dl("downloads/ChaosTable_Cards.zip", f"Download all 26 (ZIP, {SIZES['cards']})", f"ดาวน์โหลดทั้ง 26 ใบ (ZIP, {SIZES['cards']})",
-               f"26枚すべてダウンロード (ZIP, {SIZES['cards']})", f"下载全部 26 张 (ZIP, {SIZES['cards']})") + '</p>')
+  + ' · ' + dl("downloads/ChaosTable_Cards.zip", f"Download all 28 (ZIP, {SIZES['cards']})", f"ดาวน์โหลดทั้ง 28 ใบ (ZIP, {SIZES['cards']})",
+               f"28枚すべてダウンロード (ZIP, {SIZES['cards']})", f"下载全部 28 张 (ZIP, {SIZES['cards']})") + '</p>')
 for cat, labels, items in card_groups:
     a(f'<h3>{t(*labels)}</h3><div class="grid {"g9" if len(items) > 7 else "g7"}">')
     for it in items:
@@ -437,7 +437,7 @@ try { const s = localStorage.getItem('ct-lang'); if (LANGS.includes(s)) start = 
   const box = document.getElementById('trailerBox');
   box.innerHTML = CONFIG.embedTrailer
     ? '<iframe src="https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'" title="Chaos Table trailer" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>'
-    : '<a class="alt" target="_blank" rel="noopener" href="'+url+'"><img src="assets/thumbs/screenshots/shot-01-hero.jpg" alt=""><span id="watchLabel"></span></a>';
+    : '<a class="alt" target="_blank" rel="noopener" href="'+url+'"><img src="assets/thumbs/screenshots/shot-01-table.jpg" alt=""><span id="watchLabel"></span></a>';
 })();
 
 const lb = document.getElementById('lightbox');
