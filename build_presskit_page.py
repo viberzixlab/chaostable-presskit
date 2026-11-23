@@ -228,8 +228,8 @@ a('</aside>')
 
 a('<main class="main">')
 a('<h1>Chaos Table Press Kit</h1>')
-a('<div class="byline">' + t("By Viberzix&#39;s Lab · updated 27 Oct 2026", "โดย Viberzix&#39;s Lab · อัปเดต 27 ต.ค. 2026",
-                             "開発：Viberzix&#39;s Lab ・ 更新日 2026年10月27日", "开发：Viberzix&#39;s Lab · 更新于 2026年10月27日") + '</div>')
+a('<div class="byline">' + t("By Viberzix&#39;s Lab · updated 23 Nov 2026", "โดย Viberzix&#39;s Lab · อัปเดต 23 พ.ย. 2026",
+                             "開発：Viberzix&#39;s Lab ・ 更新日 2026年11月23日", "开发：Viberzix&#39;s Lab · 更新于 2026年11月23日") + '</div>')
 a('<p class="lead">' + t("Everything you need to write about Chaos Table or put it in a video is on this page. If you need something in another format, or a review key, email us.",
                          "ข้อมูลทั้งหมดสำหรับเขียนข่าวหรือทำคลิปเกี่ยวกับ Chaos Table อยู่ในหน้านี้ หากต้องการไฟล์รูปแบบอื่นหรือคีย์รีวิว อีเมลมาได้เลยครับ",
                          "Chaos Table の記事や動画の制作に必要な素材は、すべてこのページにそろっています。別の形式のファイルやレビュー用キーが必要な場合は、お気軽にメールでご連絡ください。",
@@ -248,13 +248,13 @@ facts = [
     (("Platform", "แพลตฟอร์ม", "プラットフォーム", "平台"), "Windows PC (Steam)"),
     (("Genre", "แนวเกม", "ジャンル", "类型"), t("Social deduction, multiplayer", "Social Deduction, Multiplayer",
                                                  "正体隠匿（ソーシャルディダクション）・マルチプレイ", "社交推理、多人游戏")),
-    (("Players", "จำนวนผู้เล่น", "プレイ人数", "玩家人数"), t("6–10", "6–10 คน", "6〜10人", "6–10 人")),
+    (("Players", "จำนวนผู้เล่น", "プレイ人数", "玩家人数"), t("4–10", "4–10 คน", "4〜10人", "4–10 人")),
     (("Match length", "ความยาวหนึ่งแมตช์", "1試合の時間", "单局时长"), t("About 15–30 minutes", "ประมาณ 15–30 นาที", "約15〜30分", "约 15–30 分钟")),
     (("Languages", "ภาษา", "対応言語", "支持语言"), t("Interface in English, Thai, Japanese and Simplified Chinese", "อินเทอร์เฟซ: อังกฤษ ไทย ญี่ปุ่น จีนตัวย่อ",
                                                   "インターフェース：英語・タイ語・日本語・簡体字中国語", "界面：英语、泰语、日语、简体中文")),
     (("Price", "ราคา", "価格", "价格"), '<span id="factPrice"></span>'),
     (("Steam", "Steam", "Steam", "Steam"), '<a href="https://store.steampowered.com/app/5294070/" target="_blank" rel="noopener">store.steampowered.com/app/5294070</a>'),
-    (("Social", "ช่องทางติดตาม", "SNS", "社交媒体"), '<a href="https://www.youtube.com/@ChaosTable" target="_blank" rel="noopener">YouTube</a> · <a href="https://x.com/ChaosTableGame" target="_blank" rel="noopener">X</a> · <a href="https://www.facebook.com/ChaosTableGame" target="_blank" rel="noopener">Facebook</a>'),
+    (("Social", "ช่องทางติดตาม", "SNS", "社交媒体"), '<a href="https://www.youtube.com/@ChaosTable" target="_blank" rel="noopener">YouTube</a> · <a href="https://x.com/ChaosTableGame" target="_blank" rel="noopener">X</a> · <a href="https://www.facebook.com/ChaosTableGame" target="_blank" rel="noopener">Facebook</a> · <a href="https://discord.gg/ajX6SyrJNC" target="_blank" rel="noopener">Discord</a>'),
     (("Press contact", "ติดต่อสื่อ", "取材窓口", "媒体联系"), '<a href="mailto:viberzixlab@outlook.co.th">viberzixlab@outlook.co.th</a>'),
 ]
 a('<section id="factsheet" class="first"><h2>' + t("Factsheet", "ข้อมูลเกม", "ファクトシート", "游戏资料") + '</h2><dl class="facts">')
@@ -278,26 +278,26 @@ block("oneliner", ("In one line", "หนึ่งบรรทัด", "ひと�
     "zh-Hans": ["一款身份随时可能改变的社交推理派对游戏。交谈、识破谎言、淘汰其他玩家，用尽心机活到最后。"],
 })
 block("short", ("Short description", "คำอธิบายสั้น", "短い紹介文", "简短介绍"), {
-    "en": ["Chaos Table is a talking-and-deduction party game for 6–10 players. Roles are never guaranteed to stay the same and can change at any time, so you can never be sure who is on your side. Talk, build trust, catch the lies, dig up other players&#8217; secrets and guard your own, all without being eliminated first. Or choose to betray, and do whatever it takes to survive until you are the winner."],
-    "th": ["Chaos Table คือเกมปาร์ตี้ พูดคุย จับผิด สำหรับผู้เล่น 6–10 คน โดยบทบาทจะไม่การันตีว่าจะเหมือนเดิมตลอดไป มีการเปลี่ยนแปลงได้เสมอ ไม่มีทางรู้ว่าใครเป็นพวกของตัวเอง คุณต้องพูดคุย สร้างความไว้วางใจ จับผิดคำโกหก สืบความลับของพวกเขา และปกป้องความลับที่คุณมี โดยไม่ให้ถูกกำจัดออกไปซะก่อน หรือเลือกที่จะหักหลัง เพื่อความเอาตัวรอดจนกว่าคุณจะเป็นผู้ชนะซะเอง"],
-    "ja": ["Chaos Table は、6〜10人で遊ぶ会話と推理のパーティーゲームです。役職がずっと同じとは限らず、いつでも変わる可能性があるため、誰が味方なのか確信することはできません。話し合って信頼を築き、嘘を見抜き、ほかのプレイヤーの秘密を探りながら自分の秘密を守り、先に脱落しないよう立ち回りましょう。あるいは裏切りを選び、最後に勝者となるまで手段を選ばず生き残るのもあなた次第です。"],
-    "zh-Hans": ["Chaos Table 是一款供 6–10 名玩家游玩的交谈推理派对游戏。身份并不保证一成不变，随时都可能改变，所以你永远无法确定谁才是自己的同伴。你需要交谈、建立信任、揭穿谎言、打探其他玩家的秘密并守住自己的秘密，同时避免被提前淘汰。你也可以选择背叛，不择手段地活下去，直到成为最后的赢家。"],
+    "en": ["Chaos Table is a talking-and-deduction party game for 4–10 players. Roles are never guaranteed to stay the same and can change at any time, so you can never be sure who is on your side. Talk, build trust, catch the lies, dig up other players&#8217; secrets and guard your own, all without being eliminated first. Or choose to betray, and do whatever it takes to survive until you are the winner."],
+    "th": ["Chaos Table คือเกมปาร์ตี้ พูดคุย จับผิด สำหรับผู้เล่น 4–10 คน โดยบทบาทจะไม่การันตีว่าจะเหมือนเดิมตลอดไป มีการเปลี่ยนแปลงได้เสมอ ไม่มีทางรู้ว่าใครเป็นพวกของตัวเอง คุณต้องพูดคุย สร้างความไว้วางใจ จับผิดคำโกหก สืบความลับของพวกเขา และปกป้องความลับที่คุณมี โดยไม่ให้ถูกกำจัดออกไปซะก่อน หรือเลือกที่จะหักหลัง เพื่อความเอาตัวรอดจนกว่าคุณจะเป็นผู้ชนะซะเอง"],
+    "ja": ["Chaos Table は、4〜10人で遊ぶ会話と推理のパーティーゲームです。役職がずっと同じとは限らず、いつでも変わる可能性があるため、誰が味方なのか確信することはできません。話し合って信頼を築き、嘘を見抜き、ほかのプレイヤーの秘密を探りながら自分の秘密を守り、先に脱落しないよう立ち回りましょう。あるいは裏切りを選び、最後に勝者となるまで手段を選ばず生き残るのもあなた次第です。"],
+    "zh-Hans": ["Chaos Table 是一款供 4–10 名玩家游玩的交谈推理派对游戏。身份并不保证一成不变，随时都可能改变，所以你永远无法确定谁才是自己的同伴。你需要交谈、建立信任、揭穿谎言、打探其他玩家的秘密并守住自己的秘密，同时避免被提前淘汰。你也可以选择背叛，不择手段地活下去，直到成为最后的赢家。"],
 })
 block("long", ("Long description", "คำอธิบายแบบยาว", "詳しい紹介文", "详细介绍"), {
     "en": ["No one at this table can be trusted.",
-           "In Chaos Table, 6–10 players receive secret roles, and nobody knows for sure who is on their side. The game is played in turns, and each turn gives you tools to investigate other players, eliminate them, or ban them to restrict what they can do. Roles can be swapped as well.",
+           "In Chaos Table, 4–10 players receive secret roles, and nobody knows for sure who is on their side. The game is played in turns, and each turn gives you tools to investigate other players, eliminate them, or ban them to restrict what they can do. Roles can be swapped as well.",
            "Dying is not always the end. A player can be revived at any time in a new role, on either side.",
            "You will also run into special events and mysterious guests who keep shaking up the situation."],
     "th": ["บนโต๊ะแห่งนี้ไม่มีใครไว้ใจได้",
-           "ใน Chaos Table ผู้เล่น 6–10 คน จะได้รับบทบาทลับ โดยที่ไม่มีใครรู้เลยว่าใครเป็นพวกของตัวเองก็ตาม รูปแบบการเล่นจะเป็นแบบเทิร์น และแต่ละเทิร์นจะมีตัวช่วยคอยช่วยสืบข้อมูลของผู้เล่น กำจัดผู้เล่นออก หรือแบนเพื่อจำกัดสิทธิ์ได้ รวมถึงการสับเปลี่ยนบทบาทก็ตาม",
+           "ใน Chaos Table ผู้เล่น 4–10 คน จะได้รับบทบาทลับ โดยที่ไม่มีใครรู้เลยว่าใครเป็นพวกของตัวเองก็ตาม รูปแบบการเล่นจะเป็นแบบเทิร์น และแต่ละเทิร์นจะมีตัวช่วยคอยช่วยสืบข้อมูลของผู้เล่น กำจัดผู้เล่นออก หรือแบนเพื่อจำกัดสิทธิ์ได้ รวมถึงการสับเปลี่ยนบทบาทก็ตาม",
            "การตายภายในเกมนั้นถือว่ายังไม่ใช่จุดจบเสมอไป เพราะว่าผู้เล่นสามารถถูกชุบกลับมาได้เสมอในบทบาทใหม่ไม่ว่าจะเป็นฝั่งไหนก็ตาม",
            "นอกจากนี้ก็สามารถพบกับเหตุการณ์พิเศษที่จะเกิดขึ้น หรือแขกปริศนาเพื่อคอยสร้างสถานการณ์ให้เปลี่ยนแปลงได้เสมอ"],
     "ja": ["このテーブルに、信じられる者はいない。",
-           "Chaos Table では、6〜10人のプレイヤーにそれぞれ秘密の役職が配られ、誰が味方なのかは誰にもはっきりわかりません。ゲームはターン制で進み、ターンごとにほかのプレイヤーを調べたり、脱落させたり、行動を制限するために封じたりする手段が手に入ります。役職そのものを入れ替えることもできます。",
+           "Chaos Table では、4〜10人のプレイヤーにそれぞれ秘密の役職が配られ、誰が味方なのかは誰にもはっきりわかりません。ゲームはターン制で進み、ターンごとにほかのプレイヤーを調べたり、脱落させたり、行動を制限するために封じたりする手段が手に入ります。役職そのものを入れ替えることもできます。",
            "死んでも、それで終わりとは限りません。プレイヤーはいつでも新たな役職で復活する可能性があり、それがどちらの陣営になるかはわかりません。",
            "さらに、特別なイベントや謎の来訪者が次々と現れ、状況をかき乱していきます。"],
     "zh-Hans": ["这张桌上，没有人值得信任。",
-                "在 Chaos Table 中，6–10 名玩家各自获得秘密身份，没有人能确定谁是自己的同伴。游戏采用回合制，每个回合都会提供调查其他玩家、淘汰他们，或是封禁对方以限制其行动的手段，甚至还能交换身份。",
+                "在 Chaos Table 中，4–10 名玩家各自获得秘密身份，没有人能确定谁是自己的同伴。游戏采用回合制，每个回合都会提供调查其他玩家、淘汰他们，或是封禁对方以限制其行动的手段，甚至还能交换身份。",
                 "死亡并不一定是终点。玩家随时可能以新的身份复活，而且可能属于任意一方阵营。",
                 "此外，你还会遇到各种特殊事件和神秘访客，让局势不断发生变化。"],
 })
@@ -393,7 +393,7 @@ a('<dialog id="lightbox"><img alt=""></dialog>')
 js = r"""
 /* ====== EDIT ME ====== */
 const CONFIG = {
-  trailerYouTubeId: "ggFYxW_-1vo",
+  trailerYouTubeId: "F6m1jdrJI70",
   embedTrailer: EMBED,
   release: { "en": "12 November 2026", "th": "12 พฤศจิกายน 2026", "ja": "2026年11月12日", "zh-Hans": "2026年11月12日" },
   price:   { "en": "4.99 USD", "th": "99 บาท", "ja": "655円（Steam 日本ストア価格）", "zh-Hans": "22 元人民币（Steam 国区价格）" }
@@ -458,7 +458,7 @@ setLang(start);
 """.replace("EMBED", "false" if PREVIEW else "true")
 
 head = ('<meta name="claude:viewport-fit-sides" content="cover">\n<title>Chaos Table Press Kit</title>\n'
-        '<meta name="description" content="Press kit for Chaos Table, an online social deduction party game for 6–10 players by Viberzix&#39;s Lab.">\n'
+        '<meta name="description" content="Press kit for Chaos Table, an online social deduction party game for 4–10 players by Viberzix&#39;s Lab.">\n'
         '<meta property="og:title" content="Chaos Table Press Kit">\n<meta property="og:image" content="assets/store/ChaosTable_MainCapsule_1232x706.png">\n'
         '<link rel="icon" href="assets/logo/ChaosTable_Icon_512.png">\n'
         '<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
